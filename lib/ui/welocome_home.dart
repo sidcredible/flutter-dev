@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
 
 class Welcome extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
-    return Container(
-      color: Colors.yellow,
-      child: Center(
+    return Container
+      (
+      color: Colors.amberAccent,
+      child: Text("This"),
 
-        child: Text("This is my first flutter app"),
-      ),
+
     );
-  }
-}
+  }}

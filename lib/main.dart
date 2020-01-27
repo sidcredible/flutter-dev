@@ -1,9 +1,15 @@
 import 'package:flutter/material.dart';
-import './ui/welocome_home.dart';
 
-void main() {
-  runApp(new MaterialApp(
-    title: 'Welcome App',
-    home: new Welcome(),
-  ));
+//void main() {
+//  runApp(MyApp());
+//}
+void main() => runApp(MyApp());
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      home: Text('kuch nahi hai isme bhai'),
+    );
+  }
 }
